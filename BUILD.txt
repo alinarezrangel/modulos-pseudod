@@ -1,0 +1,45 @@
+Para construir los módulos, solo ejecuta `make` en el directorio actual.
+
+	$ make
+
+Todos los archivos deberían estar en el directorio `/builds/`.
+
+	Advertencia: los módulos del NEA no pueden ser compilados sin
+	indicar antes cuales desea instalar o no. Para esto, puede
+	utilizar la herramienta `neamanage` en el directorio `/bin/`
+
+		Como Utilizar `neamanage`
+
+Ver ayuda:
+
+	$ ./bin/neamanage --help
+
+neamanage te permite automatizar todos los pasos para agregar un nuevo
+módulo al NEA, su uso es muy sencillo:
+
+	$ ./bin/neamanage install [módulo-a-instalar] [ruta-a-pseudod]
+
+Sin embargo, esta lista posee un manifiesto que puede automatizar todo:
+
+* Edite `toinstall.pdmodulo.json` y en la sección `neamods` agrege
+  los nombres de todos los módulos que desee instalar.
+
+  También puede utilizar neamanage:
+
+	$ ./bin/neamanage toinstall [mod] manifest ./toinstall.pdmodulo.json
+
+  Donde `mod` es el nombre del módulo a instalar.
+
+* Ejecute:
+
+	$ ./bin/neamanage install manifest ./toinstall.pdmodulo.json
+
+* Luego compile PseudoD con:
+
+	$ ./bin/autobuild pseudod manifest ./paquete.pdmodulo.json
+
+
+	Advertencia: compilar PseudoD requiere todas sus dependencias,
+	puede ver estas en el repositorio del proyecto.
+
+

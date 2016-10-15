@@ -1,0 +1,38 @@
+{
+	"nombre": "modulos-pseudod",
+	"version": "0.0.1-alpha",
+	"urloficial": "https://github.com/alinarezrangel/modulos-pseudod",
+	"urlfuente": "https://alinarezrangel.github.io/modulos-pseudod",
+	"certificado": "https://alinarezrangel.github.io/modulos-pseudod/certificado.pdmodulo.cert",
+	"descripcion": "Lista de paquetes de pdmodulo principal y oficial de PseudoD",
+	"etiquetas": [
+		"PseudoD",
+		"0.0.1-alpha",
+		"pdmodulo",
+		"mod-nea",
+		"mod-din",
+		"mod-pd",
+		"necesita-reconstruir",
+		"PseudoD 2.2.0",
+		"pdmodulo 1.0.0"
+	],
+	"pdmodulo": {
+		"version": "1.0.0",
+		"estructura": "predeterminada",
+		"subestructuras": [
+			"paquete-nea",
+			"paquete-din",
+			"paquete-pd"
+		]
+	},
+	"pseudod": {
+		"version": "2.2.0",
+		"desarrollo": true,
+		"reconstruir": true,
+		"bepd": "2.2.0:2.2.0"
+	},
+	"dependencias": [
+		{ "nombre": "pdmodulo-core", "version": "1.0.0" }
+	]
+}
+

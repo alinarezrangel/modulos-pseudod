@@ -1,0 +1,37 @@
+	Como contribuir
+
+El código de conducta esta disponible en el archivo `CODEOFCONDUCT.txt` y
+es el código de conducta del Contributor Covenant, version 1.4 disponible en
+http://contributor-covenant.org/version/1/4/es/.
+
+	Enviando *pull requests*
+
+Si desea incluir una característica, solucionar una falla u otra modificación
+al código fuente de PseudoD, puede realizar un «pull request». Un pull
+request es una solicitud para que el repositorio oficial de los módulos de PseudoD
+se mezcle con tu código, permitiendo a tu módulo ser oficial. Para realizar un
+pull request basta con clonar el proyecto (o, «realizar un "fork"»), realizar
+tus cambios (ver más abajo) y enviar la solicitud con la herramienta `git`.
+En caso que sea imposible utilizar git, puede contactar a
+<proyectopseudod@gmail.com> y acordar una forma de realizar el pull request.
+
+	Requisítos para un pull request
+
+* Cuando agrege un módulo, agregelo en su propio directorio, dentro de la
+  carpeta que le corresponda (`mods/nea/` para módulos del NEA, `mods/din`
+  para módulos dinámicos, etc).
+
+* Evítese modificar módulos de los que no es autor, en este caso, su
+  *pull request* será rechazado hasta que el autor del módulo de permiso
+  explícito a <proyectopseudod@gmail.com> (ver plantilla en el directorio
+  `.github/`).
+
+* Siga las convenciones estándares para módulos (puede ver los ya existentes
+  para ayuda, o pedir ayuda en los foros de PseudoD).
+
+* Evítese subir código obfuscado o de difícil entendimiento.
+
+* Evítese subir código o programas maliciosos o que pueden
+  dañar el equipo del cliente de pdmodulo sin su permiso explícito.
+
+

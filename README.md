@@ -26,10 +26,14 @@ Módulos del NEA.
 
 Módulos dinámicos.
 
-### Directorio `.github/`
+### Directorio `.github`
 
 Directorio con datos útiles para realizar pull-request, reporte de fallas
 y otros.
+
+### Directorio `bin`
+
+Herramientas y scripts útiles para la automatización.
 
 ## Archivos
 

@@ -1,0 +1,24 @@
+	Instalando módulos
+
+Si no puede utilizar la herramienta `pdmodulo` para instalar los módulos,
+puede descargar este repositorio e instalarlos manualmente.
+
+Para instalar manualmente un módulo, utilize las herramientas `autobuild`
+y `neamanage`.
+
+	autobuild
+
+	$ autobuild (pseudod|dinmod) manifest [manifest.json]
+
+autobuild construye un módulo desde su manifiesto o puede construir
+PseudoD desde un manifesto del NEA.
+
+Por ejemplo:
+
+	$ autobuild dinmod manifest mods/din/entsal/paquete.pdmodulo.json
+
+	neamanage
+
+Ver `BUILD.txt`
+
+

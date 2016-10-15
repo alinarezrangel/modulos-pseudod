@@ -1,0 +1,12 @@
+{
+	"tipo": "lista",
+	"indice": "primario",
+	"compartidos": false,
+	"paquetes": [
+		{ "nombre": "entsal", "ruta": "/mods/din/entsal/" },
+		{ "nombre": "entorno", "ruta": "/mods/din/entorno/" },
+		{ "nombre": "esavan", "ruta": "/mods/din/esavan/" },
+		{ "nombre": "permadin", "ruta": "/mods/nea/permadin/" },
+		{ "nombre": "prucod", "ruta": "/mods/pd/prucod/" }
+	]
+}
